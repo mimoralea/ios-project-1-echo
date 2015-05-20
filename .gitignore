@@ -1,0 +1,10 @@
+# Editor temp files:
+*.swp
+*~
+.\#*
+\#*\#
+.idea/
+
+# Misc
+.vagrant
+.DS_Store
