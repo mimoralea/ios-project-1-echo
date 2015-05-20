@@ -5,6 +5,11 @@
 \#*\#
 .idea/
 
+# objects and binaries
+echoclient
+echoserver
+*.o
+
 # Misc
 .vagrant
 .DS_Store
