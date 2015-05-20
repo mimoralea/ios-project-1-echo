@@ -1,8 +1,8 @@
 CFLAGS := -Wall --std=gnu99 -g
 
 default: echoserver echoclient
-webserver: $(LDFLAGS) echoserver.o
-webclient: $(LDFLAGS) echoclient.o
+echoserver: $(LDFLAGS) echoserver.o
+echoclient: $(LDFLAGS) echoclient.o
 
 .PHONY: clean
 
